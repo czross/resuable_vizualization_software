@@ -34,7 +34,7 @@ var TreeChart = function() {
                 .attr("transform", "translate(40,0)");
             
             var nodes = cluster.nodes(root);
-            var links = cluster.links(nodes);
+                var links = cluster.links(nodes);
 
             var link = svg.selectAll(".link")
                 .data(links)
